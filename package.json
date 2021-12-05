@@ -1,7 +1,6 @@
 {
   "name": "6-hero-test",
   "version": "1.0.0",
-  "main": "index.js",
   "license": "MIT",
   "scripts": {
     "dev:front": "parcel serve ./src/index.html",
