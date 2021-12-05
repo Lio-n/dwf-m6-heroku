@@ -14,7 +14,7 @@ app.get("/db-env", (req, res) => {
 });
 
 app.get("*", (req, res) => {
-  res.sendFile("__dirname" + "/dist/index.html");
+  res.sendFile(__dirname + "/dist/index.html");
 });
 
 app.listen(process.env.PORT || 3000, () => {
